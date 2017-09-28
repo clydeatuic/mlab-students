@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>clydeatuic - mlab demo</title>
+</head>
+<body>
+  <h3>Student List</h3>
+
+  <ul class="students">
+    <% for(var i=0; i<students.length; i++) {%>
+    <li class="student">
+      <span><%= students[i].studentid %></span>
+      <span><%= students[i].firstname %></span>
+      <span><%= students[i].lastname %></span>
+      <span><button onclick="modifyStudent('<%= JSON.stringify(students[i]) %>')">edit</button></span>
+    </li>
+    <% } %>
+  </ul>
+  <form action="/students" method="POST">
+    <input type="text" placeholder="studentid" name="studentid" id="studentid">
+    <input type="text" placeholder="firstname" name="firstname" id="firstname">
+    <input type="text" placeholder="lastname" name="lastname" id="lastname">
+    <br/>
+    <button type="submit">Create</button>
+  </form>
+
+  <button id="update">Update</button>
+  <button id="delete">Delete</button>
+
+  <footer>demo by clydeatuic</footer>
+  <script src="main.js"></script>
+</body>
+</html>
