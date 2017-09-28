@@ -21,6 +21,7 @@ const favicon = require('serve-favicon');
 const path = require('path');
 const app = express();
 const mongoose = require('mongoose');
+const dotenv = require('dotenv').config();
 
 /*>>> setup mongo model <<<*/
 mongoose.Promise = global.Promise;
@@ -29,7 +30,8 @@ const studentSchema = new mongoose.Schema({
 	firstname: 'string',
 	lastname: 'string'
 });
-const uri = "mongodb://username:password@domain.com:port/database";
+// const uri = "mongodb://username:password@domain.com:port/database";
+const uri = process.env.DB_URI;
 const options = {
 	useMongoClient: true,
 	promiseLibrary: require('bluebird'),
