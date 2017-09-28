@@ -47,10 +47,12 @@ clydeatuic Demo for Express + MongoDB + Heroku = Web Application
   $ heroku create lastname-mlab-students
   $ git push heroku master
   ``` 
-9. Tell heroku to open your web app
+9. It's time :) to heroku to open your web app
   ```console
   $ heroku open
   ```
+
+10. Well Done. Congrats! :balloon::balloon::balloon::confetti_ball::tada::confetti_ball::balloon::balloon::balloon:
 
 ### Summary: Guide Script
 ```console
