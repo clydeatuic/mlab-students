@@ -14,20 +14,20 @@ clydeatuic Demo for Express + MongoDB + Heroku = Web Application
   $ git clone https://github.com/clydeatuic/mlab-students.git your-name
   $ cd your-name
   ```
-1. Create a ```.env``` file, copy the following content then replace the values using mLab credentials.
+2. Create a ```.env``` file, copy the following content then replace the values using mLab credentials.
   ```javascript
   DB_URI=mongodb://username:password@host.domain.com:port/database
   ```
-1. Go to your github and create a new repo.
-1. Change the URI of the clone repository and replace it to your newly created github repo
+3. Go to your github and create a new repo.
+4. Change the URI of the clone repository and replace it to your newly created github repo
   ```console
   $ git remote set-url origin http://github.com/YOU/YOUR_REPO.git
   ```
-1. Download node dependencies
+5. Download node dependencies
   ```console
   $ npm install
   ```
-1. Add you codes in the current directory to the staging area then setup config variables for ```name``` and ```email```. Commit any changes into your local repo then push it to your remote github repository.
+6. Add you codes in the current directory to the staging area then setup config variables for ```name``` and ```email```. Commit any changes into your local repo then push it to your remote github repository.
   ```console
   $ git add .
   $ git config user.name "your-name"
@@ -35,31 +35,33 @@ clydeatuic Demo for Express + MongoDB + Heroku = Web Application
   $ git commit -m "your-message-here"
   $ git push -u origin master
   ```
-1. Using Heroku-CLI, login using your heroku credentials.
+7. Using Heroku-CLI, login using your heroku credentials.
   ```console
   $ heroku login
   ```
-1. Create new heroku app and push your codes to heroku server
+8. Create new heroku app and push your codes to heroku server
   ```console
   $ heroku create lastname-mlab-students
   $ git push heroku master
   ``` 
-1. Tell heroku to open your web app
+9. Tell heroku to open your web app
   ```console
   $ heroku open
   ```
 
-### Guide Script
+### Summary: Guide Script
 ```console
 $ git clone https://github.com/clydeatuic/mlab-students.git your-name
 $ cd your-name
 $ git remote set-url origin http://github.com/YOU/YOUR_REPO.git
 $ npm install
+
 $ git add .
 $ git config user.name "your-name"
 $ git config user.email "your-email-address"
 $ git commit -m "your-message-here"
 $ git push -u origin master
+
 $ heroku login
 $ heroku create your-name-express-mongo
 $ git push heroku master
