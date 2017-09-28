@@ -104,6 +104,7 @@ app.delete('/students', (req, res) => {
 });
 
 /*>>> run server and assign port <<<*/
-app.listen(process.env.PORT || 3000,()=>{
-	console.log('listening on 3000');
+app.set('port',(process.env.PORT || 3000));
+app.listen(app.get('port'),()=>{
+	console.log('listening on ', app.get('port'));
 });

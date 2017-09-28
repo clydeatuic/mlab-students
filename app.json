@@ -1,0 +1,6 @@
+{
+	"name": "mlab-students",
+	"description": "Express-MongoDB-Heroku Boilerplate",
+	"repository": "https://github.com/clydeatuic/mlab-students.git",
+	"image": "heroku/nodejs"
+}
