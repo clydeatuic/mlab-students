@@ -72,22 +72,25 @@ $ heroku open
 Modify this boilerplate/codes to create Login-Register Web Application. The said web app should have the following requirements:
 
 * Register Test Cases
-[x] should provide sign-up form to every new user
-[x] should check if the email provided is not a valid email format
-[x] should verify if password and confirm password matched
+
+- [x] should provide sign-up form to every new user
+- [x] should check if the email provided is not a valid email format
+- [x] should verify if password and confirm password matched
 
 * Login Test Cases
-[x] should prompt if such credential is not valid
-[x] should allow valid user to sign-in
-[x] should redirect valid user to the dashboard/home page
+
+- [x] should prompt if such credential is not valid
+- [x] should allow valid user to sign-in
+- [x] should redirect valid user to the dashboard/home page
 
 * Dashboard Test Cases
-[x] should display the name of the valid user
-[x] should provide a UI that allows valid user to update password
-[x] should allow valid user to sign-out
+
+- [x] should display the name of the valid user
+- [x] should provide a UI that allows valid user to update password
+- [x] should allow valid user to sign-out
 
 * Logout Test Cases
-[x] should redirect to login UI after signing out
+- [x] should redirect to login UI after signing out
 
 Due Date: October 06, Friday, 9:00 AM.
 
