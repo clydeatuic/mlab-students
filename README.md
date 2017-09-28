@@ -30,7 +30,7 @@ clydeatuic Demo for Express + MongoDB + Heroku = Web Application
   ```console
   $ npm install
   ```
-6. Add you codes in the current directory to the staging area then setup config variables for ```name``` and ```email```. Commit any changes into your local repo then push it to your remote github repository.
+6. Add your codes in the current directory to the staging area then setup config variables for ```name``` and ```email```. Commit any changes into your local repo then push it to your remote github repository.
   ```console
   $ git add .
   $ git config user.name "your-name"
@@ -47,7 +47,7 @@ clydeatuic Demo for Express + MongoDB + Heroku = Web Application
   $ heroku create lastname-mlab-students
   $ git push heroku master
   ``` 
-9. It's time :) to heroku to open your web app
+9. It's time :) tell heroku to open your web app
   ```console
   $ heroku open
   ```
