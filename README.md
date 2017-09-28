@@ -95,6 +95,9 @@ Modify this boilerplate/codes to create Login-Register Web Application. The said
 Due Date: October 06, Friday, 9:00 AM.
 
 ### Useful Related Sites
+* [express js](https://expressjs.com/en/4x/api.html)
+* [mongodb](https://docs.mongodb.com/)
+* [mongoose js](http://mongoosejs.com/)
 * [scotch.io](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
 * [zellwk](https://zellwk.com/blog/crud-express-mongodb/)
 * [madhums](https://github.com/madhums/node-express-mongoose/blob/master/package.json)
