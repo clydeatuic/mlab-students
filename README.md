@@ -1,6 +1,9 @@
 # mlab-students (boilerplate)
 clydeatuic Demo for Express + MongoDB + Heroku = Web Application
 
+### Live Demo
+* [https://mlab-students.herokuapp.com/](https://mlab-students.herokuapp.com/)
+
 ### Requisites
 * Node
 * Git
